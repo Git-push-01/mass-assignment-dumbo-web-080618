@@ -1,4 +1,4 @@
-require "pry"
+#require "pry"
 
 
 class Person
@@ -10,6 +10,6 @@ class Person
     def initialize(attributes)
       attributes.each {|key, value| self.send(("#{key}="), value)}
     end
-binding.pry
+#binding.pry
   #your code here
 end
